@@ -9,3 +9,5 @@ set_global_assignment -name VHDL_FILE rtl/PS2_to_matrix.vhd
 set_global_assignment -name VERILOG_FILE rtl/pad.v
 set_global_assignment -name SYSTEMVERILOG_FILE rtl/ym2149.sv
 set_global_assignment -name SYSTEMVERILOG_FILE Aquarius.sv
+set_global_assignment -name VERILOG_FILE rtl/joydb9md.v
+set_global_assignment -name VERILOG_FILE rtl/joydb15.v
