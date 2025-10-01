@@ -3,4 +3,4 @@ LABEL maintainer="theypsilon@gmail.com"
 WORKDIR /project
 ADD . /project
 RUN /opt/intelFPGA_lite/quartus/bin/quartus_sh --flow compile Aquarius.qpf
-CMD cat /project/output_files/Aquarius.rbf
+CMD ["cat", "/project/output_files/Aquarius.rbf"]
